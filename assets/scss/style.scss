@@ -1,0 +1,21 @@
+
+// Bootstrap
+// @import "./bootstrap/bootstrap.scss";
+@import "./bootstrap/bootstrap-grid.scss";
+@import "./bootstrap/bootstrap-reboot.scss";
+
+// Variable Custom Bootstrap -- se não localizar algum item no custom, ele vai para o arquivo original do bootstrap
+// @import "variables-custom";
+
+// Variaveis Globais
+@import 'variables-custom';
+
+// Website
+@import "pages/home";
+
+// Fonts Google
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './fonts';
+
+// Geral
+@import "global";

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: local("fa brands 400");
+  src: url("../font-awesome/fonts/fontawesome-webfont.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: local("fa brands 400");
+  src: url("../font-awesome/fonts/fontawesome-webfont.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: local("fa brands 400");
+  src: url("../font-awesome/fonts/fontawesome-webfont.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: local("fa brands 400");
+  src: url("../font-awesome/fonts/fontawesome-webfont.eot");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: local("fa brands 400");
+  src: url("../font-awesome/fonts/FontAwesome.otf");
+  font-weight: 400;
+}
+
+/* 
+  Caso seja outro formato
+@font-face {
+  font-family: 'NomeFonte', sans-serif;
+  src: url('fonte.eot');
+  src: url('fonte.eot?#iefix') format('embedded-opentype'),
+  url('fonte.woff') format('woff'),
+  url('fonte.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+} */

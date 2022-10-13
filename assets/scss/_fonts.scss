@@ -1,0 +1,56 @@
+// Testando algo mais facil de font
+
+// Lato: 100, 300, 500
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+$font-1: "Lato", sans-serif;
+$font-2: "Poppins", sans-serif;
+
+//Mixins: Tipografia
+@function rem($pixel, $contexto: 16){
+  @return $pixel / $contexto + rem;
+}
+
+@mixin type-1($size){
+
+  font-family: $font-1;
+
+  @if($size == 10){
+    font-size: rem(10);
+  }
+
+  @else if($size == 26){
+    font-size: rem(26);
+  }
+
+}
+
+@mixin type-2($size){
+
+  font-family: $font-2;
+
+  @if($size == 10){
+    font-size: rem(10);
+  }
+
+  @else if($size == 16){
+    font-size: rem(16);
+  }
+  
+  @else if($size == 18){
+    font-size: rem(18);
+  }
+
+  @else if($size == 20){
+    font-size: rem(20);
+  }
+
+  @else if($size == 22){
+    font-size: rem(22);
+  }
+
+  @else if($size == 26){
+    font-size: rem(26);
+  }
+
+}

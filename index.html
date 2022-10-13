@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - DW3</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <main>
+    <section class="container-fluid login">
+
+      <div class="row">
+
+        <!-- Column Left -->
+        <div class="col-md-6 login__columnLeft">
+          <div class="mask"></div>
+
+          <!-- Logo -->
+            <div class="login__columnLeft__logo">
+              <a href="#">Logo</a>
+            </div>
+            <!-- end Logo -->
+
+            <div class="login__columnLeft__description">
+              <h2>Welcome back!</h2>
+              <p>We are glad to see you again! Get access to your Orders, Wishlist and Recommendations.</p>
+            </div>
+
+        </div>
+        <!-- end Column Left -->
+
+        <!-- Column Right -->
+        <div class="col-md-6 ativo-block login__columnRight">
+          <h2>Log In</h2>
+          <form action="#" class="login__columnRight__form">
+            
+            <div>
+              <label for="email">Email address</label>
+              <input type="text" id="email" placeholder="Enter your email">
+            </div>
+            
+            <div>
+              <label for="password">Password</label>
+              <input type="text" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="row login__columnRight__form__formCheck">
+
+              <div class="col login__columnRight__form__formCheck__rememberPassword">
+                <input type="checkbox" name="rememberPassword1" id="checkboxPassword">
+                <label for="checkboxPassword">Remember me</label>
+              </div>
+
+              <div class="col login__columnRight__form__formCheck__forgotPassword">
+                <a href="#" >Forgot Password ?</a>
+              </div>
+
+            </div>
+            
+            <button type="button" class="login__columnRight__form__btnSubmit">Login</button>
+            
+          </form>
+          <p class="login__columnRight__signUp">Don't have an account? <a href="#" id="btnSingUp">Sign Up</a> </p>
+        </div>
+
+        <!-- Register Account -->
+          <div class="col-md-6 login__registerAccount ativo-none">
+            <div class="container">
+              
+              <h2>Register Account</h2>
+              <form action="#" class="login__columnRight__form">
+                  
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Enter name">
+                </div>
+                  
+                <div>
+                  <label for="email">Email address</label>
+                  <input type="text" id="email" placeholder="Enter your email">
+                </div>
+                
+                <div>
+                  <label for="password">Password</label>
+                  <input type="text" id="password" placeholder="Enter password">
+                </div>
+                
+                <button type="button" id="btnRegisterAccount" class="login__columnRight__form__btnSubmit">Register Account</button>
+                
+              </form>
+      
+            </div>
+          </div>
+        <!-- end Column Right -->
+
+      </div>
+
+
+  </section>
+
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
